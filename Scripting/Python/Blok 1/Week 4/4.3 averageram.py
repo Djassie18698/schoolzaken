@@ -13,14 +13,5 @@ def average_ram_usage(time):
 
 print(average_ram_usage(int(time)))
 
-#while current_time < end_time:
-#    ram_percent = psutil.virtual_memory().percent
-#    print("RAM percent: " + str(ram_percent) + "%")
-#    current_time = datetime.now()
-#if current_time > end_time:
-#    print (ram_percent/float(time))
-    #average = sum(ram_percent)
-    #print (float(average))
-
 
 
