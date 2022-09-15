@@ -6,4 +6,4 @@ We started this course with learning how to script in Python. Over the course of
 
 ## Test!
 I'm just testing some stuff regarding pushing and pulling
-Huts huts Werkt dit
+
