@@ -11,4 +11,5 @@ battery = psutil.sensors_battery().percent
 print ("RAM total: ", ramtotal)
 print ("RAM used: ", ramused)
 print ("RAM Percent ", rampercent,"%")
-print ("Battery :", battery)
+print ("--------------------------")
+print ("Battery :", battery, "%")
