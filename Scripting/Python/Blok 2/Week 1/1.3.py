@@ -9,4 +9,4 @@ def checkShortWordInString ():
     print("Lengte: ", len(shortest))
     print("Index: ", index)
 
-checkShortWordInString()
+checkShortWordInString()    
