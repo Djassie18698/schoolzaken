@@ -1,12 +1,13 @@
 import platform
 import time
-seconds = 1670406131.7583818
-local_time = time.ctime(seconds)
+from datetime import datetime
+now = datetime.now()
+current_time = now.strftime("%H:%M:%S")
 import os
 
 def bestandlog():
-    bestand = open("Logbestand.txt", "w+")
-    log = ["Datum/Tijd: " + local_time, "Gebruiker: " + os.getlogin(), "Scriptnaam: " + __file__, "OS: " + platform.system()]
+    bestand = open("log.txt", "a")
+    log = ["Datum/Tijd: " + current_time, "Gebruiker: " + os.getlogin(), "Scriptnaam: " + __file__, "OS: " + platform.system()]
     for i in log:
         bestand.write(""+i+ "\n")
         print (i)
@@ -17,4 +18,3 @@ def bestandlog():
     else:
         print ("ERROR")
 
-bestandlog()

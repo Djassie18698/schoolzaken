@@ -1,0 +1,5 @@
+#acceptance_wait_time: 10
+#auth_timeout: 60
+#include:
+#- /etc/salt/extra_config
+#- /etc/roles/webserver

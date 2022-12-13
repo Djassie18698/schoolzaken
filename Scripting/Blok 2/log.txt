@@ -1,5 +1,5 @@
-Datum/Tijd: Wed Dec  7 10:42:11 2022
+Datum/Tijd: 14:31:15
 Gebruiker: root
 Scriptnaam: /Users/deannellessen/Documents/Repos/schoolzaken/Scripting/Blok 2/Week 4/logger.py
 OS: Darwin
-regel wordt geprint
+regel wordt geprint 
